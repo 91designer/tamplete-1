@@ -31,3 +31,20 @@ article{
   background-color: #d0d0d0;
   float: left;
 }
+button{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-family: "tahoma";
+  color: #eee;
+  background-color: transparent;
+  border: 1px solid #eee;
+  transition: border-radius .2s ,font-size .2s, padding .3s;
+}
+button:hover{
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 8px 12px;
+}
